@@ -38,4 +38,4 @@ tache = st.selectbox("📝 Tâche", taches)
 col1, col2 = st.columns(2)
 with col1:
     if st.button("🟢 Démarrer"):
-        now = datetime.now().strftime("%
+        now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
